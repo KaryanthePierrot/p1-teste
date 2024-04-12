@@ -1,0 +1,157 @@
+/* tags */
+
+* {
+    margin: 0;
+padding: 5px;
+border: 0;
+font: inherit;
+text-decoration: none;
+
+}
+
+body{
+    background-color: bisque;
+    border: 2px solid green;
+
+}
+
+h1{
+    text-align: center;
+    border: 2px solid rgb(10, 156, 175);
+
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid rgb(215, 173, 2);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 2px gray solid;
+    border-right: 1px gray solid;
+    padding-inline: 2em;
+    background-color: rgb(218, 176, 125);
+}
+
+
+article {
+    padding-inline: 0%;
+    border: 2px solid rgb(221, 99, 13);
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(134, 134, 134);
+}
+
+footer{
+    background-image: url(/assets/roberto-nickson-KLNSaP6wvoU-unsplash.jpg) ;
+    height: 15rem;
+    border: 2px rgb(92, 161, 2) solid;
+}
+
+footer.img{
+    opacity: 0.5;
+}
+button{
+    color: rgba(245, 31, 31, 0.781);
+    background-color: rgb(232, 181, 104);
+    width: 25rem;
+    font-size: 5rem;
+    text-align: start;
+    margin-left: 1rem;
+}
+
+/* classes */
+.navegation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.achievements {
+
+    display: flex;
+    height: 25rem;
+    flex-direction: row;
+    padding-inline: 2rem;
+    border: 3px solid rgba(0, 0, 0, 0.233);
+    justify-content: center;
+
+
+   
+}
+
+
+
+.fim{
+   
+}
+
+.lisFim{
+ background-color: unset;
+ font-weight: bold;
+ rgb(230, 227, 78);
+ 
+}
+
+.lisFim a{
+color: rgb(230, 230, 78);
+text-decoration: underline;
+}
+
+
+/* id */
+
+#listFim{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: xx-large;
+}
+
+#text{
+    text-align: auto ;
+
+
+}
+
+
+#article2{
+    display:flex;
+    flex-direction: row;
+    border: 2px solid green;
+}
+
+#reuniaoPic{
+    height: 450px;
+    width: 800px;
+  
+}
+
+#reuniao{
+ border: 2px solid gray;
+}
+
+#banner{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    margin-left: -5;
+    margin-right: auto;
+  
+}
